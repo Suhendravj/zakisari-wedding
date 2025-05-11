@@ -345,8 +345,8 @@ body {
   }
 
   .scroll-track img {
-    width: 200px;
-    height: 250px;
+    width: 400px;
+    height: 500px;
     object-fit: cover;
     margin-right: 10px;
     display: inline-block;
