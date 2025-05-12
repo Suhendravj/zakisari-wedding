@@ -341,7 +341,7 @@ body {
   .scroll-track {
     display: inline-block;
     white-space: nowrap;
-    animation: scroll-left 30s linear infinite;
+    animation: scroll-left 50s linear infinite;
   }
 
   .scroll-track img {
