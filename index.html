@@ -557,21 +557,6 @@
 </script>
 
 
-<script>
-  let scrollSpeed = 1; // Kecepatan scroll (piksel per langkah)
-  let intervalDelay = 0; // Waktu antar langkah (ms)
-
-  window.onload = function () {
-    const scrollInterval = setInterval(() => {
-      window.scrollBy(0, scrollSpeed);
-
-      // Jika sudah di bagian paling bawah, hentikan scroll
-      if ((window.innerHeight + window.scrollY) >= document.body.scrollHeight) {
-        clearInterval(scrollInterval);
-      }
-    }, intervalDelay);
-  };
-</script>
 
 <script>
   function copyText() {
