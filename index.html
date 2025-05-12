@@ -240,7 +240,7 @@
               </div>
               <div class="timeline-body">
                 <p>"Hanya empat bulan setelah perjumpaan pertama, di akhir bulan yang penuh makna, kami memutuskan untuk
-                bertunangan dan melangkah ke tahap yang lebih serius."</p>
+                  bertunangan dan melangkah ke tahap yang lebih serius."</p>
               </div>
             </div>
           </li>
@@ -349,10 +349,16 @@
         <button class="btn btn-primary">Kirim</button>
       </div>
     </form>
-
+    <br><br>
     <div class="row justify-content-center mt-5">
       <div class="col-md-6">
-        <div id="disqus_thread"></div>
+        <h2>Pesan & Kesan</h2>
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous"
+          src="https://connect.facebook.net/id_ID/sdk.js#xfbml=1&version=v22.0"></script>
+        <div class="fb-comments" data-href="https://zakisari-wedding.netlify.app/Wedding"
+          data-width="100%" data-numposts="5"></div>
+        <!-- <div id="disqus_thread"></div>
         <script>
           /**
           *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
@@ -371,7 +377,7 @@
           })();
         </script>
         <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
-            Disqus.</a></noscript>
+            Disqus.</a></noscript> -->
       </div>
     </div>
 
@@ -398,7 +404,7 @@
             <p id="rekening">8042 0100 3182 536 - Anggun Sari</p>
             <button onclick="copyText()"> 📋 Salin</button>
 
-            
+
           </li>
           <li class="list-group-item">
             <div class="fw-bold"></div>
@@ -557,6 +563,21 @@
 </script>
 
 
+<!-- <script>
+  let scrollSpeed = 1; // Kecepatan scroll (piksel per langkah)
+  let intervalDelay = 0; // Waktu antar langkah (ms)
+
+  window.onload = function () {
+    const scrollInterval = setInterval(() => {
+      window.scrollBy(0, scrollSpeed);
+
+      // Jika sudah di bagian paling bawah, hentikan scroll
+      if ((window.innerHeight + window.scrollY) >= document.body.scrollHeight) {
+        clearInterval(scrollInterval);
+      }
+    }, intervalDelay);
+  };
+</script> -->
 
 <script>
   function copyText() {
