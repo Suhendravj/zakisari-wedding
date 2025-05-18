@@ -171,7 +171,12 @@ body {
   color: white !important;
   border: 1px solid #999;
 }
-
+.fb-comments{
+  color: white;
+  text-decoration: whitesmoke;
+  background-color: #3a3838;
+  border-radius: 10px;
+}
 .info .card-header {
   border-bottom: 1px solid #999;
   text-transform: uppercase;
